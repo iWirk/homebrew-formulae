@@ -2,8 +2,8 @@
 
 # frozen_string_literal: true
 
-# sketchybar_fixed_app_icon.rb
-class Sketchybar_Fixed_App_Icon < Formula
+# sketchybar-fixed-app-icon.rb
+class SketchybarFixedAppIcon < Formula
   env :std
   desc "Forked version of SketchyBar with modified base app icon resolution. Originaly forked from FelixKratz/SketchyBar"
   homepage "https://github.com/iWirk/SketchyBar"
