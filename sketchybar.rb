@@ -5,12 +5,12 @@
 # sketchybar.rb
 class Sketchybar < Formula
   env :std
-  desc "Custom macOS statusbar with shell plugin, interaction and graph support"
-  homepage "https://github.com/FelixKratz/SketchyBar"
-  url "https://github.com/FelixKratz/SketchyBar/archive/refs/tags/v2.22.0.tar.gz"
-  sha256 "898a559d46458a95a623983b40375ab05c123db6eed71c32fde1b3a657233940"
+  desc "Forked version of SketchyBar with modified base app icon resolution. Originaly forked from FelixKratz/SketchyBar"
+  homepage "https://github.com/iWirk/SketchyBar"
+  url "https://github.com/iWirk/SketchyBar/archive/refs/tags/v2.22.0-fixed_app_icon.tar.gz"
+  sha256 "713728a4c782ab27f042e429cd4161db2e4f78db5e24e7b8d845c0a5b1086c31"
   license "GPL-3.0-only"
-  head "https://github.com/FelixKratz/SketchyBar.git"
+  head "https://github.com/iWirk/SketchyBar.git"
 
   def clear_env
     ENV.delete("CFLAGS")
